@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Darsh Gambino Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+
+        <div class="header">
+            <p>Darsh__Gambito</p><a href="/landingpage.html"><button id="Home">Home</button></a>
+            <a href="/index.html"><button id="Soundboard">Soundboard</button></a>
+            <a href="/under_construction.html"><button id="Links" href="/under_construction.html">Links</button></a>
+            <a href="/under_construction.html"><button id="Contact" href="/under_construction.html">Contact</button></a>
+            <a href="/under_construction.html"><button id="Darthapedia" href="/under_construction.html">Darthapedia</button></a>
+        </div>
+
+    </header>
+
+    <img class="darthmain" src="./darthscreen2.png">
+
+
+<div class="all">
+    <div class="container">
+        <div class="center">
+          <button id="CRONUS_ZEN" onClick="play_sound(this.id)">CRONUS ZEN</button>
+          <button id="DARTH_EATIN" onClick="play_sound(this.id)">DARTH EATIN'</button>
+          <button id="DYING_BIRD" onClick="play_sound(this.id)">DYING BIRD</button>
+          <button id="FLUTE" onClick="play_sound(this.id)">FLUTE</button>
+          <button id="FOURTH_HORSEMAN" onClick="play_sound(this.id)">FOURTH HORSEMAN</button>
+          <button id="FUCKING_HELL" onClick="play_sound(this.id)">FUCKING HELL</button>
+          <button id="ITS_ALWAYS_ME" onClick="play_sound(this.id)">IT'S ALWAYS ME</button>
+          <button id="LOVE_SHOTGUNS" onClick="play_sound(this.id)">LOVE SHOTGUNS</button>
+          <button id="MEAHH" onClick="play_sound(this.id)">MEAHH</button>
+          <button id="NOOO_NOOO" onClick="play_sound(this.id)">NOOO NOOO</button>
+          <button id="NOOO" onClick="play_sound(this.id)">NOOO</button>
+          <button id="RAHHH" onClick="play_sound(this.id)">RAHHH</button>
+          <button id="TITANS" onClick="play_sound(this.id)">TITANS</button>
+          <button id="TOTALLY_INVISIBLE" onClick="play_sound(this.id)">TOTALLY INVISIBLE</button>
+          <button id="WATATAKTAKT" onClick="play_sound(this.id)">WATATAKTAKT</button>
+          <button id="YOU_RAT" onClick="play_sound(this.id)">YOU RAT</button>
+          <button id="WHATS_GOING_ON" onClick="play_sound(this.id)">WHAT'S GOING ON</button>
+          <button id="NO_SPECIAL" onClick="play_sound(this.id)">NO SPECIAL</button>
+          <button id="PUNCHY" onClick="play_sound(this.id)">PUNCHY</button>
+          <button id="FELL_DOWN_THE_HOLE" onClick="play_sound(this.id)">FELL DOWN THE HOLE</button>
+          <button id="SWITCH_TO_TETHER" onClick="play_sound(this.id)">SWITCH TO TETHER</button>
+          <button id="GRENADE" onClick="play_sound(this.id)">GRENADE</button>
+        </div>
+    </div>
+</div>
+      <hr>
+
+      <footer>©GZee x</footer>
+
+      <script> 
+      
+
+        function play_sound(clicked_id) {
+        var audio = new Audio(clicked_id + ".mp3");
+        audio.play();
+        }
+
+        </script>
+
+</body>
+</html>
