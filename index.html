@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Darsh Gambino Webpage</title>
+    <title>Darsh Gambito Webpage</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -19,50 +19,46 @@
 
     </header>
 
-    <img class="darthmain" src="./darthscreen2.png">
-
-
-<div class="all">
-    <div class="container">
-        <div class="center">
-          <button id="CRONUS_ZEN" onClick="play_sound(this.id)">CRONUS ZEN</button>
-          <button id="DARTH_EATIN" onClick="play_sound(this.id)">DARTH EATIN'</button>
-          <button id="DYING_BIRD" onClick="play_sound(this.id)">DYING BIRD</button>
-          <button id="FLUTE" onClick="play_sound(this.id)">FLUTE</button>
-          <button id="FOURTH_HORSEMAN" onClick="play_sound(this.id)">FOURTH HORSEMAN</button>
-          <button id="FUCKING_HELL" onClick="play_sound(this.id)">FUCKING HELL</button>
-          <button id="ITS_ALWAYS_ME" onClick="play_sound(this.id)">IT'S ALWAYS ME</button>
-          <button id="LOVE_SHOTGUNS" onClick="play_sound(this.id)">LOVE SHOTGUNS</button>
-          <button id="MEAHH" onClick="play_sound(this.id)">MEAHH</button>
-          <button id="NOOO_NOOO" onClick="play_sound(this.id)">NOOO NOOO</button>
-          <button id="NOOO" onClick="play_sound(this.id)">NOOO</button>
-          <button id="RAHHH" onClick="play_sound(this.id)">RAHHH</button>
-          <button id="TITANS" onClick="play_sound(this.id)">TITANS</button>
-          <button id="TOTALLY_INVISIBLE" onClick="play_sound(this.id)">TOTALLY INVISIBLE</button>
-          <button id="WATATAKTAKT" onClick="play_sound(this.id)">WATATAKTAKT</button>
-          <button id="YOU_RAT" onClick="play_sound(this.id)">YOU RAT</button>
-          <button id="WHATS_GOING_ON" onClick="play_sound(this.id)">WHAT'S GOING ON</button>
-          <button id="NO_SPECIAL" onClick="play_sound(this.id)">NO SPECIAL</button>
-          <button id="PUNCHY" onClick="play_sound(this.id)">PUNCHY</button>
-          <button id="FELL_DOWN_THE_HOLE" onClick="play_sound(this.id)">FELL DOWN THE HOLE</button>
-          <button id="SWITCH_TO_TETHER" onClick="play_sound(this.id)">SWITCH TO TETHER</button>
-          <button id="GRENADE" onClick="play_sound(this.id)">GRENADE</button>
-        </div>
-    </div>
+<a><img src="./darthscreen2.png" id="logo"></a>
+<div class="buttonlayout">
+    <audio id="CRONUS ZEN" src="/sounds/CRONUS_ZEN.mp3"></audio>
+    <audio id="DARTH EATIN" src="/sounds/DARTH_EATIN.mp3"></audio>
+    <audio id="DYING BIRD" src="/sounds/DYING_BIRD.mp3"></audio>
+    <audio id="FLUTE" src="/sounds/FLUTE.mp3"></audio>
+    <audio id="FOURTH HORSEMAN" src="/sounds/FOURTH_HORSEMAN.mp3"></audio>
+    <audio id="FUCKING HELL" src="/sounds/FUCKING_HELL.mp3"></audio>
+    <audio id="ITS ALWAYS ME" src="/sounds/ITS_ALWAYS_ME.mp3"></audio>
+    <audio id="LOVE SHOTGUNS" src="/sounds/LOVE_SHOTGUNS.mp3"></audio>
+    <audio id="MEAHH" src="/sounds/MEAHH.mp3"></audio>
+    <audio id="NOOO NOOO" src="/sounds/NOOO_NOOO.mp3"></audio>
+    <audio id="NOOO" src="/sounds/NOOO.mp3"></audio>
+    <audio id="RAHHH" src="/sounds/RAHHH.mp3"></audio>
+    <audio id="TITANS" src="/sounds/TITANS.mp3"></audio>
+    <audio id="TOTALLY INVISIBLE" src="/sounds/TOTALLY_INVISIBLE.mp3"></audio>
+    <audio id="WATATAKTAKT" src="/sounds/WATATAKTAKT.mp3"></audio>
+    <audio id="YOU RAT" src="/sounds/YOU_RAT.mp3"></audio>
+    <audio id="WHATS GOING ON" src="/sounds/WHATS_GOING_ON.mp3"></audio>
+    <audio id="NO SPECIAL" src="/sounds/NO_SPECIAL.mp3"></audio>
+    <audio id="PUNCHY" src="/sounds/PUNCHY.mp3"></audio>
+    <audio id="FELL DOWN THE HOLE" src="/sounds/FELL_DOWN_THE_HOLE.mp3"></audio>
+    <audio id="SWITCH TO TETHER" src="/sounds/SWITCH_TO_TETHER.mp3"></audio>
+    <audio id="GRENADE" src="/sounds/GRENADE.mp3"></audio>
 </div>
-      <hr>
+    <div id="buttons"></div>
 
-      <footer>©GZee x</footer>
+    <div>
+        <button id="STOP" onclick="stopSongs()">STOP</button>
+    </div>
 
-      <script> 
-      
+    <hr>
+    <footer">
+        <div class="footer">
+        ©GZee x
+        </div>
+    </footer>
 
-        function play_sound(clicked_id) {
-        var audio = new Audio(clicked_id + ".mp3");
-        audio.play();
-        }
 
-        </script>
-
+    <script src="/script.js"></script>
+    
 </body>
 </html>
