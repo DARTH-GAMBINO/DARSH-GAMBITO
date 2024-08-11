@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: fantasy, sans-serif;
+    display: block;
+    text-align: center;
+    margin: 0;
+}
+
+#logo {
+    width: 80%;
+}
+
+.btn {
+    background-color: black;
+    color: #e903f5;
+    border-radius: 5px;
+    border-color: #e903f5;
+    margin: 3px;
+    height: 100px;
+    font-family: inherit;
+    font-size: 120%;
+
+}
+
+hr {
+    width: 99%;
+
+}
+
+.btn:hover {
+    background-color: #e903f5;
+    color: black;
+}
+
+.footer {
+    color: whitesmoke;
+    font-family: fantasy;
+    font-weight: lighter;
+    text-align: left;
+}
+
+#STOP{
+    position: fixed;
+    background-color: rgb(199, 22, 22);
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 150%;
+    right: 50px;
+    bottom: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+#STOP:hover {
+    opacity: 0.9;
+}
+
+
